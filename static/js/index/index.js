@@ -18,10 +18,52 @@ $(document).ready(function () {
         $('.cover').remove()
     })
 
-    $(document).on("mousedown",function(e){
-        if(ele.is(":visible") && ele.has(e.target).length===0){
-            ele.hide();
-        }
+    // 初始化滚动框
+    var oScroll = new BScroll(".space-items-scroll", {
+        probeType: 3,
+        pullUpLoad: {
+            threshold: 10
+        },
+        mouseWheel: {    // pc端同样能滑动
+            speed: 20,
+            invert: false
+        },
+        useTransition:false  // 防止iphone微信滑动卡顿
     });
+
+
+
+    oScroll.on("scrollEnd",function(pos){
+        var item = `<div class="space-item"><img src="../../static/images/index/room.png">
+          <div class="space-info">
+            <p>水明漾宴会中心102号厅</p>
+            <p>面积：56㎡</p>
+            <p>文化类空间</p>
+          </div>
+        </div>
+        `
+        var items=''
+        for(var i=0;i<5;i++){
+            items += item
+        }
+        //到下底
+        if(pos.y<0) {
+            console.log('上拉加载')
+                load()
+            setTimeout(()=>{
+                removeLoad()
+            },500)
+            $('.space-items').append(items)
+            oScroll.refresh();
+        } else {
+            console.log('下拉刷新')
+        }
+
+    });
+
+
+
+
+
 
 })
