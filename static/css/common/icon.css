@@ -1,0 +1,122 @@
+.up-arrow-icon{content:'';display:inline-block;width:0;height:0;border-bottom:4px solid #666;border-right:4px solid transparent;border-left:4px solid transparent}
+.down-arrow-icon{content:'';display:inline-block;width:0;height:0;border-top:4px solid #666;border-right:4px solid transparent;border-left:4px solid transparent}
+.left-arrow-icon{content:'';display:inline-block;width:0;height:0;border-right:4px solid #666;border-top:4px solid transparent;border-bottom:4px solid transparent}
+.right-arrow-icon{content:'';display:inline-block;width:0;height:0;border-left:4px solid #666;border-top:4px solid transparent;border-bottom:4px solid transparent}
+.c-add-icon,.c-minus-icon{position:relative;display:inline-block;width:20px;height:20px;line-height:20px;text-align:center;background-color:#F30A37;border:1px solid #F30A37;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;cursor:pointer}
+.c-add-icon.disable,.c-minus-icon.disable{background-color:#fff;border:1px solid #ECECEC}
+.c-add-icon.disable:after,.c-add-icon.disable:before,.c-minus-icon.disable:after,.c-minus-icon.disable:before{background-color:#DEDEDE}
+.c-add-icon:after,.c-add-icon:before,.c-minus-icon:after,.c-minus-icon:before{content:'';position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;background-color:#fff;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;width:0;height:0}
+.c-add-icon:before,.c-minus-icon:before{width:8px;height:2px}
+.c-add-icon:after{width:2px;height:8px}
+.pro-type-icon{width:32px;height:32px;float:left}
+.pro-type-icon.gty{background-image:url(../../static/images/index/1.png)}
+.pro-type-icon.zyx{background-image:url(../../static/images/index/2.png)}
+.pro-type-icon.ddwl{background-image:url(../../static/images/index/3.png)}
+.pro-type-icon.jd{background-image:url(../../static/images/index/4.png)}
+.pro-type-icon.pq{background-image:url(../../static/images/index/5.png)}
+.pro-type-icon.pq{background-image:url(../../static/images/index/6.png)}
+.pro-type-icon.yl{background-image:url(../../static/images/index/7.png)}
+.main-list:hover .right-arrow-wrp{background-image:url(../../static/images/index/right_arrow_hover.png)}
+.right-arrow-wrp{width:32px;height:32px;float:right;background-image:url(../../static/images/index/right_arrow.png)}
+.hot-separate{width:20px;height:10px;display:inline-block;margin-left:4px;background-image:url(../../static/images/index/hots.png)}
+.days-icon{width:32px;height:13px;display:inline-block;background-image:url(../../static/images/index/days.png);margin-left:8px;vertical-align:top}
+.check-box{display:inline-block;width:16px;height:16px;background-image:url(../../static/images/travel/checkbox.png)}
+.check-box.checked{background-image:url(../../static/images/travel/checked.png)}
+.down-ctl{width:60px;height:26px;line-height:26px;text-align:center;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background-image:url(../../static/images/travel/down.png)}
+.down-ctl.up-ctl{background-image:url(../../static/images/travel/up.png)}
+.sclose{width:16px;height:16px;display:inline-block;background-image:url(../../static/images/travel/close.png)}
+.down-screen-icon,.up-screen-icon{display:inline-block;width:14px;height:14px;margin-left:4px;vertical-align:-2px}
+.down-screen-icon{background-image:url(../images/sprite-img/sort.png)}
+.cur .down-screen-icon{background-image:url(../images/sprite-img/down-screen.png)}
+.up-screen-icon{background-image:url(../images/sprite-img/sort.png)}
+.cur .up-screen-icon{background-image:url(../images/sprite-img/up-screen.png)}
+.eye-icon{display:inline-block;width:14px;height:10px;margin-left:4px;background-image:url(../images/sprite-img/eye.png)}
+.eye-icon.hide{height:7px;background-image:url(../images/sprite-img/eye-hide.png)}
+.check-icon,.uncheck-icon{display:inline-block;width:20px;height:20px;vertical-align:middle}
+.check-icon{background-image:url(../images/sprite-img/check.png)}
+.uncheck-icon{background-image:url(../images/sprite-img/uncheck.png)}
+.minus-icon{display:inline-block;width:12px;height:1px;background-image:url(../images/sprite-img/minus.png)}
+.external-item-list .plus-icon{display:inline-block;width:24px;height:24px;background-image:url(../images/sprite-img/add-circle.png)}
+.external-item-list .minus-icon{display:inline-block;width:24px;height:24px;background-image:url(../images/sprite-img/minus-circle.png)}
+.plus-icon{display:inline-block;width:11px;height:11px;background-image:url(../images/sprite-img/plus.png)}
+.more-btn{display:inline-block;width:30px;height:18px;background-image:url(../images/sprite-img/more.png);vertical-align:-4px;margin-left:10px;cursor:pointer}
+.more-btn:hover{background-image:url(../images/sprite-img/more_hover.png)}
+.safe-icon{display:inline-block;width:24px;height:28px;background-image:url(../images/sprite-img/safe.png)}
+.service-icon{display:inline-block;width:26px;height:26px;background-image:url(../images/sprite-img/service.png)}
+.step-icon{display:inline-block;width:10px;height:10px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;background-color:#E3E3E7}
+.step-icon.active{background-color:#FFF;border:1px solid #F30A37}
+.red-tick-icon{display:inline-block;width:21px;height:21px;background-image:url(../images/sprite-img/red-tick-icon.png)}
+.adult-icon{display:inline-block;width:15px;height:18px;background-image:url(../images/sprite-img/adult.png)}
+.child-icon{display:inline-block;width:16px;height:18px;background-image:url(../images/sprite-img/child.png)}
+.baby-icon{display:inline-block;width:18px;height:18px;background-image:url(../images/sprite-img/baby.png)}
+.print-icon{display:inline-block;width:20px;height:20px;background-image:url(../images/sprite-img/print.png)}
+.download-icon{display:inline-block;width:22px;height:20px;background-image:url(../images/sprite-img/download.png)}
+.file-icon{display:inline-block;width:18px;height:20px;background-image:url(../images/sprite-img/file.png)}
+.y-star-icon{display:inline-block;width:29px;height:26px;background-image:url(../images/sprite-img/y-star.png)}
+.wifi-icon{display:inline-block;width:20px;height:15px;background-image:url(../images/sprite-img/wifi.png)}
+.parking-lot-icon{display:inline-block;width:18px;height:18px;background-image:url(../images/sprite-img/parking-lot.png)}
+.restaurant-icon{display:inline-block;width:17px;height:18px;background-image:url(../images/sprite-img/restaurant.png)}
+.gym-icon{display:inline-block;width:22px;height:14px;background-image:url(../images/sprite-img/gym.png)}
+.chess-room-icon{display:inline-block;width:18px;height:18px;background-image:url(../images/sprite-img/chess-room.png)}
+.coffee-house-icon{display:inline-block;width:18px;height:18px;background-image:url(../images/sprite-img/coffee-house.png)}
+.bar-icon{display:inline-block;width:18px;height:18px;background-image:url(../images/sprite-img/bar.png)}
+.morning-call-icon{display:inline-block;width:17px;height:18px;background-image:url(../images/sprite-img/morning-call.png)}
+.karaoke-icon{display:inline-block;width:18px;height:19px;background-image:url(../images/sprite-img/karaoke.png)}
+.room-icon{display:inline-block;width:14px;height:18px;background-image:url(../images/sprite-img/room.png)}
+.a-icon{display:inline-block;width:24px;height:24px;background-image:url(../images/sprite-img/A.png)}
+.date-icon{display:inline-block;width:14px;height:13px;background-image:url(../images/sprite-img/date.png)}
+.icon-arrow-left:before,.icon-arrow-right:before{display:none}
+.icon-arrow-left{display:inline-block;width:20px;height:20px;background-image:url(../images/sprite-img/left_arr.png)}
+.down-double-arrow{display:inline-block;width:11px;height:11px;background-image:url(../images/sprite-img/down-double-arrow.png)}
+.down-double-arrow.up{background-image:url(../images/sprite-img/up-double-arrow.png)}
+.arrow-down{display:inline-block;width:11px;height:6px;background-image:url(../images/sprite-img/down-arrow.png)}
+.arrow-down.up{background-image:url(../images/sprite-img/up-arrow.png)}
+.arrow-left,.arrow-right{display:inline-block;width:6px;height:11px}
+.arrow-right{background-image:url(../images/sprite-img/right-arrow.png)}
+.arrow-left{background-image:url(../images/sprite-img/left-arrow.png)}
+.icon-arrow-right{display:inline-block;width:20px;height:20px;background-image:url(../images/sprite-img/right_arr.png)}
+.people-icon{display:inline-block;width:8px;height:14px;background-image:url(../images/sprite-img/people.png)}
+.cruise-icon{display:inline-block;width:22px;height:17px;background-image:url(../images/sprite-img/cruise.png)}
+.order-status-icon{display:inline-block;width:96px;height:96px;background-image:url(../images/sprite-img/order-status.png)}
+.order-suc-icon{display:inline-block;width:110px;height:120px;background-image:url(../images/sprite-img/order-suc.png)}
+.zfb-method{display:inline-block;width:102px;height:30px;background-image:url(../images/sprite-img/zfb.png)}
+.wechat-method{display:inline-block;width:110px;height:32px;background-image:url(../images/sprite-img/wechat-pay.png)}
+.trip-restaurant-icon{display:inline-block;width:18px;height:18px;background-image:url(../images/sprite-img/trip-restaurant.png)}
+.trip-stay-icon{display:inline-block;width:18px;height:18px;background-image:url(../images/sprite-img/trip-stay.png)}
+.tel-icon{display:inline-block;width:32px;height:32px;background-image:url(../images/sprite-img/tel.png)}
+.collect-star{display:inline-block;width:20px;height:20px;background-image:url(../images/details/collect.png)}
+.collect-star.collected{background-image:url(../images/details/collected.png)}
+.agreed-item .check-icon{background-image:url(../images/pay/check-icon.png);display:inline-block;width:20px;height:20px;margin-right:6px;background-repeat:no-repeat;vertical-align:middle;cursor:pointer}
+.agreed-item .checked-icon{background-image:url(../images/pay/checked-icon.png);display:inline-block;width:20px;height:20px;margin-right:6px;background-repeat:no-repeat;vertical-align:middle}
+.wx-kf-icon{display:inline-block;width:32px;height:32px;background-image:url(../images/sprite-img/wx-kf.png)}
+.tip-icon{display:inline-block;width:16px;height:16px;background-image:url(../images/travel/tip-icon.png)}
+.prev-icon{display:inline-block;width:40px;height:30px;background-image:url(../images/sprite-img/prev-icon.png)}
+.prev-icon.dis{background-image:url(../images/sprite-img/prev-icon-dis.png)}
+.next-icon{display:inline-block;width:40px;height:30px;background-image:url(../images/sprite-img/next-icon.png)}
+.next-icon.dis{background-image:url(../images/sprite-img/next-icon-dis.png)}
+.checkbox-icon{display:inline-block;width:16px;height:16px;background-image:url(../images/sprite-img/checkbox.png)}
+.checkbox-icon.checked{background-image:url(../images/sprite-img/checked.png)}
+.switch-icon{display:inline-block;width:16px;height:16px;background-image:url(../images/sprite-img/switch.png)}
+.more-2-icon{display:inline-block;width:16px;height:16px;background-image:url(../images/sprite-img/more-2.png)}
+.more-2-icon.hidden{background-image:url(../images/sprite-img/hidden.png)}
+.lock-o-icon{display:inline-block;width:32px;height:32px;background-image:url(../images/sprite-img/lock-o.png)}
+.lock-o-icon.locked{background-image:url(../images/sprite-img/locked-o.png)}
+.new-tip-icon{display:inline-block;width:24px;height:14px;background-image:url(../images/sprite-img/new-tip.png)}
+.transit-icon{display:inline-block;width:24px;height:24px;background-image:url(../images/sprite-img/transit.png)}
+.plane-icon{display:inline-block;width:24px;height:24px;background-image:url(../images/sprite-img/plane.png)}
+.plane-b-icon{display:inline-block;width:28px;height:28px;background-image:url(../images/sprite-img/plane-b.png)}
+.slyx-icon{display:inline-block;width:54px;height:14px;background-image:url(../images/sprite-img/slyx.png)}
+.t-add-icon{display:inline-block;width:20px;height:20px;background-image:url(../images/sprite-img/t-add.png)}
+.c-switch-icon{display:inline-block;width:21px;height:21px;background-image:url(../images/sprite-img/c-switch.png)}
+.c-switch-icon:hover{background-image:url(../images/sprite-img/c-switch-a.png)}
+.search-icon{display:inline-block;width:22px;height:22px;background-image:url(../images/sprite-img/search.png)}
+.search-icon.disable{background-image:url(../images/sprite-img/search-d.png)}
+.c-arrow-down-icon{display:inline-block;width:9px;height:5px;background-image:url(../images/sprite-img/c-arrow-down.png)}
+.show .c-arrow-down-icon{background-image:url(../images/sprite-img/c-arrow-up.png)}
+.g-arrow-down-icon{display:inline-block;width:16px;height:16px;background-image:url(../images/sprite-img/g-arrow-down.png)}
+.show .g-arrow-down-icon{background-image:url(../images/sprite-img/g-arrow-up.png)}
+.toTop-icon{display:inline-block;width:60px;height:60px;background-image:url(../images/sprite-img/toTop.png)}
+.toTop-icon:hover{background-image:url(../images/sprite-img/toTop-h.png)}
+.c-close-icon{display:inline-block;width:32px;height:32px;background-image:url(../images/sprite-img/c-close.png)}
+.djtj-icon{display:inline-block;width:56px;height:15px;background-image:url(../images/sprite-img/djtj.png)}
+.icon-fanhui{font-size:14px;color:#D0D2D8;margin:0 5px}

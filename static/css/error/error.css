@@ -1,0 +1,9 @@
+.error-page{position:fixed;width:100%;height:100%;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}
+.error-box .error-img{display:inline-block;vertical-align:middle;margin-right:51px}
+.error-box .error-con{display:inline-block;vertical-align:middle;max-width:400px}
+.error-box .error-con .error-tit{font-size:20px;color:#333;line-height:1;font-weight:600}
+.error-box .error-con .error-info{color:#7F8593;font-size:14px;line-height:20px;margin-top:10px}
+.error-box .error-con .error-btn-bar{margin-top:10px}
+.error-box .error-con .error-btn-bar a{display:inline-block;width:96px;height:34px;line-height:34px;text-align:center;font-size:14px;color:#333;background:#EEEEF0;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+.error-box .error-con .error-btn-bar a:not(:first-child){margin-left:20px}
+.error-box .error-con .error-btn-bar a.refresh-btn{color:#fff;background:#4779D4}

@@ -1,0 +1,79 @@
+.com-tab-ctl ul li{float:left;position:relative;height:60px;line-height:60px;text-align:center;padding:0 25px;font-size:16px;cursor:pointer}
+.com-tab-ctl ul li span.red-line{width:14px;background-color:#F30A37;height:3px;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;position:absolute;left:50%;margin-left:-7px;display:none;bottom:10px;-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px}
+.com-tab-ctl ul li.cur,.com-tab-ctl ul li:hover{color:#F30A37}
+.com-tab-ctl ul li.cur span.red-line,.com-tab-ctl ul li:hover span.red-line{display:block}
+.com-tab-ctl ul.tab-blue span.red-line{background-color:#2497FC;-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px}
+.com-tab-ctl ul.tab-blue li.cur,.com-tab-ctl ul.tab-blue li:hover{color:#2497FC}
+.tab-ctx{display:none}
+.tab-ctx.cur{display:block}
+.com-list-wrp.hide{height:0;overflow:hidden}
+.com-list-wrp ul li.list-wrp{position:relative;padding:32px 32px 0 32px;background-color:#fff}
+.com-list-wrp ul li.list-wrp:hover{background-color:#FFFBF2}
+.com-list-wrp ul li.list-wrp .all-part{border-bottom:1px solid #f0f0f0;padding-bottom:32px}
+.com-list-wrp ul li.list-wrp .all-part .yct-icon{position:absolute;height:22px;padding:0 10px;-webkit-border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px;color:#1CAB22;top:0;background-color:#DDFBDF}
+.com-list-wrp ul li.list-wrp:last-child .all-part{border:0;border:none}
+.com-list-wrp ul li.list-wrp .prolist-left-part{float:left}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-icon-title .prolist-icon{width:56px;height:56px;display:inline-block;margin-right:12px;vertical-align:middle}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-icon-title .prolist-icon img{width:100%;height:100%}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-icon-title .prolist-title{font-size:18px;width:800px;display:inline-block;vertical-align:middle}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-icon-title .prolist-title a{color:#333}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-icon-title .prolist-title a:hover{color:#466094}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-icon-title .prolist-title span{max-height:56px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-main-info{margin-top:10px;margin-bottom:22px}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-main-info ul li{height:40px;padding-left:20px;margin-left:20px;border-left:1px solid #f0f0f0;float:left}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-main-info ul li:first-child{padding-left:0;margin-left:0;border-left:0}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-main-info ul li .prolist-main-info-title{color:#b3b3b3;line-height:1}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-main-info ul li .prolist-main-info-ctx{font-size:18px;line-height:1;margin-top:8px}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-start-date{color:#b3b3b3}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-start-date ul{margin-right:20px}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-start-date ul li{float:left;height:22px;line-height:22px;text-align:center;background-color:#EEEEF0;color:#7F8593;margin-left:4px;padding:0 14px;-webkit-border-radius:11px;-moz-border-radius:11px;border-radius:11px}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-start-date ul li:first-child{margin-left:0}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-start-date ul li:last-child{margin-right:20px}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-start-date span.date-item{color:#333;height:14px;padding-left:10px;margin-left:10px;border-left:1px solid #f0f0f0}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-start-date span.date-item:first-child{padding-left:0;margin-left:4px;border-left:0}
+.com-list-wrp ul li.list-wrp .prolist-left-part .prolist-start-date span.date-item.more-date{color:#4779D4;cursor:pointer}
+.com-list-wrp ul li.list-wrp .prolist-right-part{float:right;width:160px;text-align:center;line-height:1;margin-top:10px}
+.com-list-wrp ul li.list-wrp .prolist-right-part .source-price{margin-bottom:15px}
+.com-list-wrp ul li.list-wrp .prolist-right-part .source-price span.title{color:#b3b3b3;margin-right:18px;float:left;min-width:70px;text-align:right}
+.com-list-wrp ul li.list-wrp .prolist-right-part .sale-price{margin-bottom:15px}
+.com-list-wrp ul li.list-wrp .prolist-right-part .sale-price span.title{color:#b3b3b3;margin-right:18px;float:left;min-width:70px;text-align:right}
+.com-list-wrp ul li.list-wrp .prolist-right-part .sale-money{margin-bottom:15px}
+.com-list-wrp ul li.list-wrp .prolist-right-part .sale-money span.title{color:#b3b3b3;margin-right:18px;float:left;min-width:70px;text-align:right}
+.com-list-wrp ul li.list-wrp .prolist-right-part .book-btn{height:44px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background-color:#F30A37;text-align:center;line-height:44px}
+.com-list-wrp ul li.list-wrp .prolist-right-part .book-btn a{color:#fff;display:block}
+.com-list-wrp ul li.list-wrp .prolist-right-part .book-btn a:hover{background-color:#E53235;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;color:#fff!important}
+.com-list-header{background-color:#fff;border-bottom:1px solid #EEEEF0;font-size:0}
+.com-list-header li{display:inline-block;height:54px;line-height:54px;vertical-align:middle;text-align:center;font-size:14px;color:#B2B4BE}
+.com-list-header li.startTime{width:130px}
+.com-list-header li.router{width:360px}
+.com-list-header li.tName{width:250px}
+.com-list-header li.deadline{width:110px}
+.com-list-header li.recordop,.com-list-header li.salemoney,.com-list-header li.saleprice,.com-list-header li.sourceprice{width:100px}
+.info-pannel .com-list-header li.recordop,.info-pannel .com-list-header li.salemoney,.info-pannel .com-list-header li.saleprice,.info-pannel .com-list-header li.sourceprice{width:97px}
+.com-list-body{background-color:#fff;font-size:0}
+.com-list-body>li:first-child .prolist-main-part{border-top:none}
+.com-list-body .list-item-left-part{display:inline-block;vertical-align:top;text-align:center;width:130px;font-size:34px;color:#181C28;line-height:34px;padding-top:20px}
+.com-list-body .list-item-left-part .l-bottom-part{font-size:16px;color:#181C28;line-height:16px;margin-top:4px}
+.com-list-body .prolist-main-part{display:inline-block;width:1030px;border-top:1px solid #E3E3E7;position:relative;padding:20px 0}
+.com-list-body .prolist-main-part .main-top-part{margin-bottom:15px;zoom:1}
+.com-list-body .prolist-main-part .main-top-part:after{display:table;content:"";visibility:hidden;clear:both}
+.com-list-body .prolist-main-part .main-top-part li{vertical-align:top;text-align:center;font-size:14px;color:#B2B4BE;float:left}
+.com-list-body .prolist-main-part .main-top-part li.router{width:360px;font-size:16px;color:#181C28;line-height:22px;text-align:left;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+.com-list-body .prolist-main-part .main-top-part li.router.ellipsis{position:relative}
+.com-list-body .prolist-main-part .main-top-part li.router.ellipsis:before{display:inline-block;content:'...';width:16px;text-align:center;background-color:#fff;position:absolute;right:8px;bottom:0}
+.com-list-body .prolist-main-part .main-top-part li.tName{width:250px;font-size:16px;color:#181C28;line-height:22px}
+.com-list-body .prolist-main-part .main-top-part li.deadline{width:110px;font-size:16px;color:#181C28;line-height:22px}
+.com-list-body .prolist-main-part .main-top-part li.saleprice,.com-list-body .prolist-main-part .main-top-part li.sourceprice{width:100px;font-size:16px;color:#F30A37;line-height:22px}
+.com-list-body .prolist-main-part .main-top-part li.salemoney{width:90px;font-size:16px;color:#1CAB22;line-height:22px}
+.com-list-body .prolist-main-part .main-top-part li.recordop{width:100px;font-size:16px;color:#F30A37;line-height:22px;cursor:pointer}
+.com-list-body .prolist-main-part .main-bottom-part{display:inline-block}
+.com-list-body .prolist-main-part .main-bottom-part li{font-size:14px;color:#B2B4BE;line-height:14px;display:inline-block;vertical-align:middle;padding:0 20px;border-left:1px solid #E3E3E7}
+.com-list-body .book-btn{height:40px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background-color:#F30A37;text-align:center;line-height:40px;display:inline-block;width:130px;position:absolute;font-size:16px;color:#FFF;right:0;bottom:20px}
+.com-list-body .book-btn a{color:#fff;display:block}
+.com-list-body .book-btn a:hover{background-color:#E53235;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;color:#fff!important}
+.breadcrumb{height:40px;line-height:40px;font-size:14px;color:#333;background-color:#f7f7f7}
+.breadcrumb ul{width:1190px;margin:0 auto;overflow:hidden}
+.breadcrumb li{float:left}
+.breadcrumb li a{color:#333}
+.breadcrumb li .cur{color:#D82628}
+.breadcrumb span{margin:0 10px}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="../../static/css/common.css">
+    <!--link(rel='stylesheet', href='../../static/iconfont/iconfont.css')-->
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_733585_c2vp91sbuf5.css">
+    <link rel="stylesheet" href="../../static/css/login/loginInfo.css">
+  </head>
+  <title>初次登录</title>
+  <body>
+    <ul class="custom-info">
+      <li><img src="../../static/images/center/infoicon@3x.png" class="info-icon"><span>基本信息</span></li>
+      <li><span>您的姓名</span>
+        <input placeholder="" value="卖火柴的小女孩" type="text">
+      </li>
+      <li class="sex-li"><span>您的性别</span>
+        <input placeholder="" value="女" id="sex" readonly="readonly"><img src="../../static/images/swiper/right@3x.png">
+      </li>
+      <li><span>手机号（登录账号）</span>
+        <input placeholder="" value="18173578806">
+      </li>
+    </ul>
+    <div class="info-label-area">
+      <ul class="custom-info">
+        <li><img src="../../static/images/center/editicon@3x.png" class="info-icon"><em>选择身份标签</em><em class="label-tip">（可多选或不选）</em></li>
+      </ul>
+      <div class="label-items clearfix"><span class="selected">活动主办人<img src="../../static/images/center/selected@3x.png"></span><span>社会就业人士<img src="../../static/images/center/selected@3x.png"></span><span>在校学生<img src="../../static/images/center/selected@3x.png"></span><span>心理健康咨询师<img src="../../static/images/center/selected@3x.png"></span><span>临时辅导<img src="../../static/images/center/selected@3x.png"></span><span>区块链技术人员<img src="../../static/images/center/selected@3x.png"></span><span>后台定义<img src="../../static/images/center/selected@3x.png"></span></div>
+    </div>
+    <ul class="login-op">
+      <li>选好了</li>
+      <li>跳过</li>
+    </ul>
+    <div class="scroll-cover scroll-cover-sex">
+      <div class="scroll-area">
+        <div class="scroll-head"><span class="cancel">取消</span><span class="cfm">确认</span></div>
+        <div class="wheel-scroll">
+          <ul class="content">
+            <li class="wheel-item"> 男</li>
+            <li class="wheel-item"> 女</li>
+          </ul>
+          <div class="selected-box"></div>
+        </div>
+      </div>
+    </div>
+    <script src="../../static/js/lib/jquery.min.js"></script>
+    <script src="../../static/js/fontsize.js"></script>
+    <script src="../../static/js/common.js"></script>
+    <script src="../../static/js/lib/bsroll.js"></script>
+    <script src="../../static/js/login/loginInfo.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.pagination-wrp{width:1190px;margin:0 auto;margin-top:14px}
+.pagination-wrp .pageindex{float:left;margin-top:14px;color:#b3b3b3;font-size:12px}
+.pagination-wrp .pagination{position:relative;text-align:center;zoom:1;float:right}
+.pagination-wrp .pagination:after{content:"";display:block;clear:both}
+.pagination-wrp .pagination .active{float:left;width:40px;height:40px;line-height:40px;font-size:14px;background-color:#f7f7f7;color:#F30A37}
+.pagination-wrp .pagination span{float:left;width:40px;height:40px;line-height:40px;color:#666;font-size:14px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin-right:4px}
+.pagination-wrp .pagination a{float:left;width:40px;height:40px;line-height:40px;background:#fff;color:#666;font-size:14px;margin-left:-1px;text-decoration:none;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin-right:4px;color:#333}
+.pagination-wrp .pagination a.prev{width:auto;padding:0 20px}
+.pagination-wrp .pagination a.next{width:auto;padding:0 20px}
+.pagination-wrp .pagination a:hover{background-color:#F30A37;color:#fff!important}
+.pagination-wrp .pagination .jump-btn:hover{background:#eee}
+.pagination-wrp .pagination .jump-btn{width:48px;height:26px;background-color:#f0f0f0;line-height:26px;margin-left:-55px;margin-top:7px;position:absolute}
+.pagination-wrp .pagination .jump-btn:hover{background-color:#F30A37}
+.pagination-wrp .pagination .jump-ipt{height:40px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;border:0;border:none;line-height:40px;padding:10px;background:#fff;width:130px;outline:0;color:#666;font-size:14px;float:left}

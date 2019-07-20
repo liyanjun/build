@@ -1,0 +1,5 @@
+.progress{position:fixed;top:0;right:0;left:0;height:2px;background:#f7f7f7;z-index:99}
+.progress .progress-inner{width:1%;background:#F30A37;position:absolute;top:0;left:0;bottom:0}
+.partialLoad{position:absolute;width:100%;top:0;left:0;z-index:99}
+.partialLoad:after{content:'';position:fixed;top:0;left:0;width:100%;height:100%;z-index:99}
+.partialLoad .partialLoad-progress{width:1%;height:2px;background:#F30A37}

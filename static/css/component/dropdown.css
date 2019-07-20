@@ -1,0 +1,32 @@
+.select-group{position:relative;display:inline-block;width:70px;cursor:pointer}
+.select-group .select{position:relative;padding:8px 20px 8px 15px;border:1px solid #ddd}
+.select-group .select i{position:absolute;right:10px;top:0;bottom:0;margin:auto}
+.select-group .select .select-val{display:block;width:100%;height:20px;line-height:20px;background:0 0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:none;cursor:pointer}
+.select-group .select-dropdown{display:none;position:absolute;top:100%;width:100%;background-color:#fff;padding:8px 12px;margin-top:4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;z-index:1;-webkit-box-shadow:0 2px 12px 0 rgba(24,28,40,.1);-moz-box-shadow:0 2px 12px 0 rgba(24,28,40,.1);box-shadow:0 2px 12px 0 rgba(24,28,40,.1)}
+.select-group .select-dropdown li{line-height:34px;padding:0 8px;border:none;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin-top:4px}
+.select-group .select-dropdown li:first-child{margin-top:0}
+.select-group .select-dropdown li.active{color:#F30A37}
+.select-group .select-dropdown li:hover{color:#F30A37;background:#F4F4F4}
+.sg-multi-choice{position:relative;display:inline-block;width:70px;cursor:pointer}
+.sg-multi-choice .choice{position:relative;padding:8px 20px 8px 15px;border:1px solid #ddd}
+.sg-multi-choice .choice i{position:absolute;right:10px;top:0;bottom:0;margin:auto}
+.sg-multi-choice .choice .choice-val{display:block;width:100%;height:20px;line-height:20px;background:0 0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:none;cursor:pointer;white-space:nowrap;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis}
+.sg-multi-choice .choice-dropdown{display:none;position:absolute;min-width:100px;background-color:#fff;border:1px solid #ddd}
+.sg-multi-choice .choice-dropdown p{font-size:16px;color:#181C28;height:48px;line-height:48px;border-bottom:1px solid #ddd;padding-left:12px}
+.sg-multi-choice .choice-dropdown ul{top:100%;width:100%;padding:0 12px 8px 12px}
+.sg-multi-choice .choice-dropdown ul li{padding:0 8px;border:none;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;font-size:0;border-bottom:1px solid #ddd;position:relative}
+.sg-multi-choice .choice-dropdown ul li i{display:inline-block;vertical-align:top;line-height:36px}
+.sg-multi-choice .choice-dropdown ul li i.icon-uncheck{color:#B2B4BE}
+.sg-multi-choice .choice-dropdown ul li i.icon-check{color:#F30A37}
+.sg-multi-choice .choice-dropdown ul li .choice-wrap{vertical-align:top;display:inline-block;width:420px;font-size:14px;padding-right:20px}
+.sg-multi-choice .choice-dropdown ul li .choice-wrap .choice-tit{line-height:36px;white-space:nowrap;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis}
+.sg-multi-choice .choice-dropdown ul li .choice-wrap .choice-desc{font-size:12px;line-height:18px;color:#B1B4BE;margin-bottom:10px}
+.sg-multi-choice .choice-dropdown ul li .choice-price{display:inline-block;height:36px;line-height:36px;max-width:50px;vertical-align:top;font-size:14px;text-align:right;position:absolute;top:0;right:0;margin-right:24px}
+.sg-multi-choice .choice-dropdown ul li:first-child{margin-top:0}
+.sg-multi-choice .choice-dropdown ul li.active{color:#F30A37}
+.sg-multi-choice .choice-dropdown ul li:hover{background:#F4F4F4}
+.sg-multi-choice .choice-dropdown ul li:last-child{margin-bottom:32px}
+.sg-multi-choice .choice-dropdown .choice-btn-warp{font-size:0;margin-bottom:32px;overflow:hidden;padding:0 12px}
+.sg-multi-choice .choice-dropdown .choice-btn-warp span{display:inline-block;width:100px;height:40px;line-height:40px;font-size:14px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;float:right;text-align:center}
+.sg-multi-choice .choice-dropdown .choice-btn-warp .sure{background-color:#F30A37;color:#fff}
+.sg-multi-choice .choice-dropdown .choice-btn-warp .cancel{background-color:#EEEEF0;color:#000;margin-right:14px}

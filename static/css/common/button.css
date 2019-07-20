@@ -1,0 +1,7 @@
+.btn{display:inline-block;width:120px;height:40px;line-height:40px;color:#fff;background-color:#F30A37;font-size:16px;text-align:center;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;cursor:pointer}
+.btn.btn-sm{width:60px;height:26px;line-height:26px;font-size:14px}
+.btn.btn-md{width:160px;height:44px;line-height:44px}
+.btn.btn-default{background-color:#f0f0f0;color:#333}
+.btn.disabled{background:#F0A8A9}
+.btn.disable{background:#F0A8A9}
+.btn.grey{background-color:gray}
