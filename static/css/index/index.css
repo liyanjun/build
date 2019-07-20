@@ -1,4 +1,4 @@
-body{padding:1rem 0}
+body{height:100vh;overflow: hidden;padding: 1rem 0 1.5rem 0}
 .space-nav{background:#fff;position:fixed;top:0;width:100%;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;z-index:6}
 .space-nav>li{width:50%;height:.88rem;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;color:#999}
 .space-nav>li .icon-expand{width:.15rem;heigth:.09rem;margin:0 .1rem}
@@ -11,5 +11,6 @@ body{padding:1rem 0}
 .space-items .space-item .space-info p{color:#999;font-size:.28rem;margin-bottom:.1rem}
 .space-items .space-item .space-info p:first-child{color:#333;font-size:.32rem;margin-bottom:.2rem}
 .cover{width:100%;height:100%;background-color:rgba(0,0,0,.6);position:fixed;top:0;left:0;z-index:5}
-.space-items-scroll{overflow: hidden;height:100vh}
+.space-items-scroll{overflow: hidden;height:100%;}
+
 

@@ -21,6 +21,7 @@ $(document).ready(function () {
     // 初始化滚动框
     var oScroll = new BScroll(".space-items-scroll", {
         probeType: 3,
+        click: true,
         pullUpLoad: {
             threshold: 10
         },
