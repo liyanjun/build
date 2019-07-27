@@ -1,6 +1,8 @@
 body{background-color:#EEE}
-.custom-info{background-color:#FFF;padding:.3rem .4rem}
+.custom-info{background-color:#FFF;padding:.3rem .4rem 0 .4rem}
+.custom-info-2 {padding:0 .4rem 0 .4rem}
 .custom-info li{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;border-bottom:1px solid #F8F8F8;height:1rem}
+.custom-info li:last-child {border:none}
 .custom-info li span{display:inline-block;width:3rem;color:#999}
 .custom-info li img{width:.14rem;height:.26rem}
 .custom-info li .info-icon{width:.5rem;height:.5rem;margin-right:.23rem}
@@ -8,10 +10,13 @@ body{background-color:#EEE}
 .info-label-area{margin-top:.16rem;background-color:#FFF}
 .info-label-area .label-tip{color:#999;margin:0 .1rem}
 .label-items{min-height:5rem}
-.label-items span{float:left;display:inline-block;margin-left:.32rem;margin-bottom:.24rem;padding:.1rem;background-color:#F8F8F8;text-align:center;-webkit-border-radius:.05rem;-moz-border-radius:.05rem;border-radius:.05rem;position:relative;color:#333}
+.label-items span{float:left;display:inline-block;margin-left:.32rem;margin-bottom:.24rem;padding:.2rem .3rem;background-color:#F8F8F8;text-align:center;-webkit-border-radius:.05rem;-moz-border-radius:.05rem;border-radius:.05rem;position:relative;color:#333;font-size: .24rem}
 .label-items span img{position:absolute;width:.24rem;height:.24rem;top:-.12rem;right:-.12rem;display:none}
 .label-items .selected{color:#FF7500}
 .label-items .selected img{display:block}
+
+
+
 .sex-wraper{height:3rem;overflow:hidden}
 .sex-wraper li{height:1rem}
 .login-op{background-color:#FFF;padding:.32rem}

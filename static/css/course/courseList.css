@@ -1,15 +1,16 @@
 body{padding-top:1rem}
 .space-nav{background:#fff;position:fixed;top:0;width:100%;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;z-index:6}
 .space-nav>li{width:50%;height:.88rem;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;color:#999}
-.space-nav>li .icon-expand{width:.15rem;heigth:.09rem;margin:0 .1rem}
+.space-nav>li:first-child {color:#333333}
+.space-nav>li .icon-expand{width:.15rem;height:.09rem;margin:0 .1rem}
 .space-nav>li ul{display:none;width:100%;background:#fff;position:absolute;top:100%;left:0}
 .space-nav>li ul li{height:.88rem;line-height:.88rem;padding-left:.3rem}
 .space-nav .nav-on ul{display:block}
 .space-items{background-color:#FFF}
 .space-items .space-item{height:2.43rem;border-bottom:1px solid #ECECEC;padding:.32rem;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}
-.space-items .space-item img{width:2.4rem;height:1.8rem;display:block;margin-right:.2rem}
+.space-items .space-item img{width:2.4rem;height:1.8rem;display:block;margin-right:.2rem;border-radius: 0.05rem}
 .space-items .space-item .space-info p{color:#999;font-size:.28rem;margin-bottom:.1rem}
-.space-items .space-item .space-info p span{border:1px solid #FF7500;padding:.1rem;font-size:.2rem;color:#FF7500;-webkit-border-radius:.04rem;-moz-border-radius:.04rem;border-radius:.04rem;margin-right:.1rem}
+.space-items .space-item .space-info p span{border:1px solid #FF7500;padding:0.05rem .1rem;font-size:.2rem;color:#FF7500;-webkit-border-radius:.04rem;-moz-border-radius:.04rem;border-radius:.04rem;margin-right:.1rem}
 .space-items .space-item .space-info p:first-child{color:#333;font-size:.32rem;margin-bottom:.2rem}
 .space-items .space-item .space-info p:nth-child(2){color:red;font-size:.24rem}
 .cover{width:100%;height:100%;background-color:rgba(0,0,0,.6);position:fixed;top:0;left:0;z-index:5}

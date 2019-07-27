@@ -1,7 +1,7 @@
 $(function () {
 
   $('#getV').on('click', function(){
-      var sec = 30
+      var sec = 10
   	if(!$(this).hasClass('disable')){
       	$(this).addClass('disable')
         $('#getV').text(sec+' S')
@@ -10,7 +10,7 @@ $(function () {
             $('#getV').text(sec+' S')
             if(sec==0){
                 clearInterval(count)
-                $('#getV').removeClass('disable').text('获取验证码')
+                $('#getV').removeClass('disable').text('重新发送')
 
             }
 

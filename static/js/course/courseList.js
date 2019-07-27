@@ -8,6 +8,10 @@ $(document).ready(function () {
             var cover= '<div class="cover"></div>'
             $('body').append(cover)
         }
+        $('.cover').on('click', function(){
+            $('.space-nav>li').removeClass('nav-on')
+            $('.cover').remove()
+        })
     })
 
     $('.space-nav ul li').on('click', function(e){

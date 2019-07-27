@@ -8,6 +8,12 @@ body{background-color:#EEE;padding-bottom:1.2rem}
 .room-info .li-name{font-size:.32rem;color:#333;margin-bottom:.2rem}
 .room-info .li-squace{font-size:.28rem;color:#333}
 .room-info .li-type{font-size:.28rem;color:#333}
+.room-info .li-type .span-1{font-size:.28rem;color:#333;float: left}
+.room-info .li-type .span-2{font-size:.28rem;color:#333;float: right;margin-right: .2rem}
+.room-info .li-type .span-3{font-size:.22rem;color:#333;float: right;margin-top: .1rem;color:#FF7500}
+.room-info .li-type .span-4{font-size:.28rem;color:#333;float: right;color:#FF7500}
+.room-info .li-type .span-5{font-size:.22rem;color:#333;float: right;margin-top:.1rem}
+.room-info .li-type span {margin-right: .1rem}
 .room-detail{background-color:#FFF;padding:.32rem}
 .room-detail .room-area-name{text-align:center}
 .room-detail img{display:block;width:100%}

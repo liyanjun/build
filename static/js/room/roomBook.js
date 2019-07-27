@@ -16,6 +16,10 @@ $(document).ready(function () {
     })
 
     $('.time-nav ul li').on('click', function(){
-        $(this).toggleClass('selected')
+
+        if(!$(this).hasClass('booked')){
+            $(this).toggleClass('selected')
+        }
+
     })
 });

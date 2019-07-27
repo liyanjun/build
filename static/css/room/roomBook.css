@@ -15,7 +15,8 @@ body{background-color:#EEE;padding-bottom:1.2rem}
 .time-nav{background-color:#FFF;padding:.35rem .32rem}
 .time-nav>li p{margin-bottom:.27rem}
 .time-nav>li ul li{height:1.08rem;background:#f8f8f8;color:#333;font-size:.28rem;line-height:1.08rem;padding:0 .28rem;margin-bottom:.16rem;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
-.time-nav>li ul li .booked{color:#FF7500}
+.time-nav>li ul li .state{color:#FF7500}
+.time-nav>li ul .booked .state{color:#999999}
 .time-nav>li ul li .select-time{display:inline-block;width:.36rem;height:.36rem;background-image:url(../../images/room/select@3x.png);-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
 .time-nav>li ul li .time{margin-right:2.5rem}
 .time-nav>li ul .selected .select-time{background-image:url(../../images/room/selected@3x.png)!important}

@@ -1,7 +1,7 @@
 body{background-color:#FFF}
 .member-panel{height:4.67rem;width:100%;background-image:url(../../images/center/centerbg@3x.png);-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding-top:1rem}
 .member-panel img{display:block;height:1.32rem;margin:0 auto;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%}
-.member-panel p{text-align:center;color:#FFF;margin:.23rem 0}
+.member-panel p{text-align:center;color:#FFF;margin:.23rem 0;font-size: .32rem}
 .center-nav{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:0 .42rem;margin-top:1rem}
 .center-nav li img{display:block;width:.84rem;height:.84rem;margin:.1rem auto}
 .center-nav li p{color:#333;font-size:.28rem;text-align:center}
