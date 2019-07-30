@@ -21,6 +21,7 @@ body{background-color:#EEE;padding-bottom:1.2rem}
 .footer li:first-child{background-color:#FFF;width:60%;color:#333;display:inline-block;text-align: left;padding-left: .4rem}
 .footer li:first-child span{font-size:.24rem;margin-right:.3rem}
 .footer li:first-child .amount{color:#FF7500;font-size:.28rem}
+.footer li:first-child .amount em {font-size: .34rem}
 .footer li:last-child{display:inline-block;width:40%;background-color:#FF7500;color:#fff}
 
 

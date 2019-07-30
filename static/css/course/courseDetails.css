@@ -5,15 +5,18 @@ body{background-color:#EEE;padding-bottom:1.2rem}
 .slide-img{width:100%;display:block;height:100%}
 .swiper-pagination-clickable .swiper-pagination-bullet{background:#fff}
 .room-info{padding:.32rem .32rem .01rem .32rem;background-color:#FFF;margin-bottom:.16rem}
-.room-info li{margin-bottom:.3rem}
+.room-info li{margin-bottom:.2rem}
+.room-info li:last-child{margin-top:.3rem}
 .room-info .li-name{font-size:.34rem;color:#333;margin-bottom:.2rem;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}
 .room-info .li-label span{margin-bottom: .1rem;float:left; border:1px solid #FF7500;padding:0.05rem .1rem;font-size:.2rem;color:#FF7500;-webkit-border-radius:.04rem;-moz-border-radius:.04rem;border-radius:.04rem;margin-right:.1rem}
 .room-info .li-type{font-size:.28rem;color:#333}
 .room-info .cost{color:#FF7500;font-size:.24rem;margin:0 .2rem}
 .room-info .cost em {font-size: .32rem}
-.room-info .signup-num{float:right;color:red;font-size:.24rem}
-.room-detail{background-color:#FFF;padding:.32rem}
+.room-info .signup-num{float:right;color:red;font-size:.24rem;margin-top: .1rem}
+.room-detail{background-color:#FFF;padding:.32rem;min-height: 5rem;}
 .room-detail .room-area-name{text-align:center}
 .room-detail img{display:block;width:100%}
 .room-detail p{margin: .1rem}
 .footer{position:fixed;width:100%;height:1rem;line-height:1rem;background:#ff7500;-webkit-box-shadow:0 0 12px 0 rgba(221,224,223,.35);-moz-box-shadow:0 0 12px 0 rgba(221,224,223,.35);box-shadow:0 0 12px 0 rgba(221,224,223,.35);text-align:center;font-size:.32rem;color:#fff}
+.swiper-container-horizontal>.swiper-pagination-bullets {bottom: .1rem}
+.swiper-pagination-bullet {width: .12rem; height: .12rem}
